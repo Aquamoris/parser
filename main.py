@@ -2,8 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 URL = "https://auto.drom.ru/mercedes-benz/new/all/"
-HEADERS = {'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Mobile Safari/537.36',
-           'accept': '*/*'}
+HEADERS = ...
 
 
 def get_html(url, params=None):
