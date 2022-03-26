@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 URL = "https://auto.drom.ru/mercedes-benz/new/all/"
-HEADERS = ...
+# HEADERS = ""
 
 
 def get_html(url, params=None):
